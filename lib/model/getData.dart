@@ -21,7 +21,7 @@ class getData {
       for (var i = 0; i < data.length; i++) {
         names.add(data[i]['name']);
         ingredients.add(data[i]['ingredients']);
-        images.add(data[i]['images']);
+        images.add(data[i]['recipe_image']);
         timeToMake.add(data[i]['time_to_make']);
         type.add(data[i]['type']);
         youtube_url.add(data[i]['youtube_url']);
