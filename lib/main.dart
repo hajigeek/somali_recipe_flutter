@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: PracLoading()),
+      home: Scaffold(body: HomeScreen()),
     );
   }
 }
